@@ -8,13 +8,13 @@ A red/black roulette simulator with a menu-driven betting interface.
 
 - Three bet sizes (100 / 300 / 500 kr)
 - Bet type selection: red, black, or exact number
-- Randomised spin results with `srand(time(0))` seeding
+- Randomised spin results with srand(time(0)) seeding
 - Balance tracking with win/loss calculation
-- Input validation with `cin.fail()` and stream recovery
+- Input validation with cin.fail() and stream recovery
 
 ## Slots
 
-A 3×3 slot machine with multi-line win detection.
+A 3x3 slot machine with multi-line win detection.
 
 - Symbol grid randomly populated on each spin
 - Win detection across rows, columns, and both diagonals
@@ -24,4 +24,4 @@ A 3×3 slot machine with multi-line win detection.
 
 ## Stack
 
-C++, standard library only (`iostream`, `cstdlib`, `ctime`, `limits`)
+C++, standard library only (iostream, cstdlib, ctime, limits)
